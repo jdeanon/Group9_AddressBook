@@ -27,16 +27,14 @@ public class AddressEntry {
 
     @Override
     public String toString() {
-        return "AddressEntry{" +
-                "firstName=" + firstName +
+        return "firstName=" + firstName +
                 ", lastName=" + lastName +
                 ", street=" + street +
                 ", city=" + city +
                 ", state=" + state +
                 ", zip=" + zip +
                 ", phoen=" + phone +
-                ", email=" + email +
-                '}';
+                ", email=" + email;
     }
 
     public String getFirstName() {
