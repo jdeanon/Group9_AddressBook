@@ -1,21 +1,37 @@
 package address.data;
-
+/**
+ * @author Sitara Meherzad, Mamata Polisetty, Joshua Deanon
+ * @since 03-16-2021
+ *
+ * This class represents a single address entry from the AddressBook
+ */
 public class AddressEntry {
+
+    // class instance variables representing an addressEntry
     private Integer id;
     private String phone;
     private String email;
-
-
-
-    private  Name name;
+    private Name name;
     private Address address;
 
 
+    /**
+     * empty constructor
+     */
+    public AddressEntry() { }
 
-    public AddressEntry() {
-
-    }
-
+    /**
+     * AddressEntry constructor with 9 parameters
+     * @param id
+     * @param firstName
+     * @param lastName
+     * @param street
+     * @param city
+     * @param state
+     * @param zip
+     * @param email
+     * @param phone
+     */
     public AddressEntry(int id,String firstName, String lastName, String street, String city, String state, Integer zip, String email,String phone) {
        this.id= id;
         name = new Name(firstName,lastName);
@@ -24,6 +40,10 @@ public class AddressEntry {
         this.email = email;
     }
 
+    /**
+     * ToString Method
+     * @return string with formatted AddressEntry
+     */
     @Override
     public String toString() {
         return
@@ -36,6 +56,8 @@ public class AddressEntry {
                 " " + address.getZip() +
                 " " + phone + " " + email;
     }
+
+    // getters and setters
     public Integer getId() {
         return id;
     }
