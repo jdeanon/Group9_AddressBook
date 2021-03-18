@@ -4,7 +4,11 @@ import java.io.InputStream;
 import java.util.Scanner;
 
 /**
- * The address.Menu class displays the
+ * The address.Menu class displays the Menu options of AddressBook
+ *
+ * @author Sitara Meherzad
+ * @since 03-15-2021
+ *
  */
 public class Menu {
     /**

@@ -9,7 +9,16 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+/**
+ * This class is the gui code for finding an entry in the AddressBook
+ *
+ * @author Sitara Meherzad
+ * @since 03-15-2021
+ *
+ */
 public class FindEntryGUI {
+
+    // class instance variables
     private JButton findButton;
     private JTextField findTextField;
     String findLastName;
@@ -17,11 +26,13 @@ public class FindEntryGUI {
     JScrollPane findScroll;
 
 
-
     DefaultListModel<AddressEntry> myaddressEntryListModel = new DefaultListModel<AddressEntry>();
 
     JList <AddressEntry> addressEntryJList = new JList<>(myaddressEntryListModel);
 
+    /**
+     * constructor for FindEntryGUI, creates new button, scrollPane to show entries
+     */
     public FindEntryGUI() {
         findTextField = new JTextField(30);
         findPanel.add(findTextField);

@@ -1,9 +1,9 @@
 package address.data;
 /**
- * @author Sitara Meherzad, Mamata Polisetty, Joshua Deanon
- * @since 03-16-2021
- *
  * This class represents a single Name from the AddressBook
+ *
+ * @author Sitara Meherzad
+ * @since 03-16-2021
  */
 public class Name {
 

@@ -10,6 +10,9 @@ import java.util.Vector;
  * The address.AddressBookApplication reads the user input from the menu selection and
  * then it calls the methods for the proper menu selection and then it
  * processes address.Menu class and address.AddressBook class accordingly.
+ *
+ * @author Sitara Meherzad
+ * @since 03-16-2021
  */
 public class AddressBookApplication {
 
@@ -18,7 +21,6 @@ public class AddressBookApplication {
     public static void main(String args[]) throws IOException {
 
         char selection;
-
 
         selection = Menu.promptMenu();
         while(selection != 'f')

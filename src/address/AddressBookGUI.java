@@ -17,6 +17,13 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+/**
+ * This class is the main AddressBook GUI code.
+ *
+ * @author Sitara Meherzad
+ * @since 03-15-2021
+ *
+ */
 public class AddressBookGUI {
 
     private JFrame frame;
@@ -52,11 +59,8 @@ public class AddressBookGUI {
     DefaultListModel<AddressEntry> myaddressEntryListModel = new DefaultListModel<AddressEntry>();
 
     /**
-
      * Launch the application.
-
      */
-
     public static void main(String[] args) {
 
         EventQueue.invokeLater(new Runnable() {
@@ -82,11 +86,8 @@ public class AddressBookGUI {
     }
 
     /**
-
      * Create the application.
-
      */
-
     public AddressBookGUI() throws IOException, SQLException, ClassNotFoundException {
         databaseReading();
 

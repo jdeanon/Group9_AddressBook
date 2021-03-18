@@ -1,9 +1,10 @@
 package address.data;
 /**
- * @author Sitara Meherzad, Mamata Polisetty, Joshua Deanon
+ * This class represents a single address entry from the AddressBook
+ *
+ * @author Sitara Meherzad
  * @since 03-16-2021
  *
- * This class represents a single address entry from the AddressBook
  */
 public class AddressEntry {
 
